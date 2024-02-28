@@ -21,7 +21,7 @@ The program has two arrays:
 * sprite - contains animation object information
 * msg - contains messages shown on led display
 
-The flow is pretty straight forward:
+Program flow is pretty straight forward:
 * setup() - connects to Wifi and initializes time client
 * loop():
   * Iterate over the arrays and set message and sprite information accordingly
@@ -34,7 +34,7 @@ There are numerous articles on the internet for connecting max7219 display with 
 ## Case
 I use a public library to 3d print cases and haven't been able to get a good one printed yet. The library uses Ultimaker 3 or Ultimaker S3.
 
-I printed this case https://www.thingiverse.com/thing:4383145 and the grill doesn't match the leds on the display.
+I printed this case https://www.thingiverse.com/thing:4383145 and the grill doesn't match leds on my max7219.
 Photo:
 
 I think the case is for 1088AS display type and not FC16_HW. It could also have been due to an error in printing.
