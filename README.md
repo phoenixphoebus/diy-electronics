@@ -2,7 +2,10 @@
 I am a Cloud and Big data software professional by day, an electronics hobbyist by night, so my code might not be up to standards or might not follow best practices.
 
 # max7219-esp8266-synced-clock
-The aim was to build a clock that syncs with internet for time. Extensions of this project are planned and would be to display conditional text based on time of day, locations etc.
+The aim was to build a clock that syncs with internet for time. Here's a video of the clock in action:
+[![Youtube Video dpzCI1DDihA](https://img.youtube.com/vi/dpzCI1DDihA/0.jpg)](https://www.youtube.com/watch?v=dpzCI1DDihA)
+
+Extensions of this project are planned and would be to display conditional text based on time of day, location etc.
 
 ##Components
 Microcontoller: esp8266
