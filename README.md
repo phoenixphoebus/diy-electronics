@@ -43,3 +43,7 @@ Photo:
 
 
 I am trying to print this (https://www.thingiverse.com/thing:2885225) now and should have an update in two weeks. Yes, the library near me is that busy.
+
+## FAQ
+##### Why does max7219 show special characters?
+The MD_PAROLA library uses pointers to access character array. The animation is done across multiple iterations of loop(). The displayAnimate() function returns true when animation has finished. Are you sure contents of the array persist across the iterations of loop function? 
