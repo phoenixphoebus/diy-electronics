@@ -17,9 +17,9 @@ Power source: Any 5V source
 * NTP_Client - https://github.com/arduino-libraries/NTPClient
 
 ## Code
-The program are two arrays:
-sprite - contains animation object information
-msg - contains messages shown on led display
+The program has two arrays:
+* sprite - contains animation object information
+* msg - contains messages shown on led display
 
 The flow is pretty straight forward:
 * setup() - connects to Wifi and initializes time client
@@ -29,7 +29,7 @@ The flow is pretty straight forward:
 * convertToTwoDigitString() - This function pads zeros when hours and/or minutes return by ntp is less than 10.
 
 ## Wiring
-There are numerous articles on the internet for connecting max7219 display with max7219 and have observed all of them to work in my experience.
+There are numerous articles on the internet for connecting max7219 display with max7219 and have observed all of them to work in my experience. Please create an issue and I'll try to update this section as soon as possible.
 
 ## Case
 I use a public library to 3d print cases and haven't been able to get a good one printed yet. The library uses Ultimaker 3 or Ultimaker S3.
@@ -42,7 +42,7 @@ Another problem I had with the case was printing the grill. The printer failed t
 Photo:
 
 
-I am trying to print this (https://www.thingiverse.com/thing:2885225) now and should have an update in two weeks. Yes, the library near me is that busy.
+I am trying to print this (https://www.thingiverse.com/thing:2885225) now and should have an update in two weeks. Yes, the library near my place is that busy. -_-
 
 ## FAQ
 ##### Why does max7219 show special characters?
