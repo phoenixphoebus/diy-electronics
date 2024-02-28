@@ -7,7 +7,7 @@ The aim was to build a clock that syncs with internet for time. Here's a video o
 
 Extensions of this project are planned and would be to display conditional text based on time of day, location etc.
 
-##Components
+## Components
 Microcontoller: esp8266
 Display: max7219 FC16_HW (Hardware type FC16_HW is etched on the board under display leds. The display leds can be pulled out of headers to find it.)
 Power source: Any 5V source
@@ -31,7 +31,7 @@ The flow is pretty straight forward:
 ## Wiring
 There are numerous articles on the internet for connecting max7219 display with max7219 and have observed all of them to work in my experience.
 
-##Case
+## Case
 I use the public library to print cases and haven't been able to get a printed one yet. The library uses Ultimaker 3 or Ultimaker 3s.
 
 I printed this case https://www.thingiverse.com/thing:4383145 and the grill doesn't match the leds on the display.
