@@ -33,11 +33,13 @@ I use a public library to 3d print cases and haven't been able to get a good one
 
 I printed this case https://www.thingiverse.com/thing:4383145 and the grill doesn't match leds on my max7219.
 Photo:
+![IMG_E0406.png](docs/images/IMG_E0406.png)
 
 I think the case is for 1088AS display type and not FC16_HW. It could also have been due to an error in printing.
-Another problem I had with the case was printing the grill. The printer failed to switch to PLA or something else but the print failed.
-Photo:
-
+Another problem I had with the case was printing the grill. The printer failed to switch to PLA or something else happened but the print failed.
+Photos:
+![IMG_20240124_114555_463.jpg](docs/images/IMG_20240124_114555_463.jpg)
+![IMG_20240124_114603_370.jpg](docs/images/IMG_20240124_114603_370.jpg)
 
 I am trying to print this (https://www.thingiverse.com/thing:2885225) now and should have an update in two weeks. Yes, the library near my place is that busy. -_-
 
