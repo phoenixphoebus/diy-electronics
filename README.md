@@ -32,7 +32,7 @@ The flow is pretty straight forward:
 There are numerous articles on the internet for connecting max7219 display with max7219 and have observed all of them to work in my experience.
 
 ## Case
-I use the public library to print cases and haven't been able to get a printed one yet. The library uses Ultimaker 3 or Ultimaker 3s.
+I use a public library to 3d print cases and haven't been able to get a good one printed yet. The library uses Ultimaker 3 or Ultimaker S3.
 
 I printed this case https://www.thingiverse.com/thing:4383145 and the grill doesn't match the leds on the display.
 Photo:
