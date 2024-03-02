@@ -18,6 +18,8 @@ The program has two arrays:
 * sprite - contains animation object information
 * msg - contains messages shown on led display
 
+Wifi credentials have to be set on lines 316 and 317.
+
 Program flow is pretty straight forward:
 * setup() - connects to Wifi and initializes time client
 * loop():
