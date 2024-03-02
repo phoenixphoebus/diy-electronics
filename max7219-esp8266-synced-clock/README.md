@@ -10,8 +10,9 @@ Display: max7219 FC16_HW (Hardware type FC16_HW is etched on the board under dis
 Power source: Any 5V source
 
 ## Libraries
-* MD_Parola - https://github.com/MajicDesigns/MD_Parola and https://github.com/MajicDesigns/MD_MAX72XX
-* NTP_Client - https://github.com/arduino-libraries/NTPClient
+* MD_Parola
+  * https://github.com/MajicDesigns/MD_Parola
+  * https://github.com/MajicDesigns/MD_MAX72XX
 
 ## Code
 The program has two arrays:
@@ -46,6 +47,10 @@ Photos:
 I am trying to print this (https://www.thingiverse.com/thing:2885225) now and should have an update in two weeks. Yes, the library near my place is that busy. -_-
 
 ## FAQ
+##### Who not use NTP_Client - https://github.com/arduino-libraries/NTPClient and use time.h instead?
+The advantages of using time.h are:
+* No need for custom code to handle daylight savings
+* Default NTP polling is set to 60 minutes which means fewer calls to ntp server as esp8266's/Nodemcu's clock is robust enough to to maintain time for more than an hour. Refer this to change polling interval - https://werner.rothschopf.net/202011_arduino_esp8266_ntp_en.htm#:~:text=Change%20NTP%20Polling%20Interval 
 ##### Why does max7219 show special characters?
 The MD_PAROLA library uses pointers to access character array. The animation is done across multiple iterations of loop(). The displayAnimate() function returns true when animation has finished. Are you sure contents of the array persist across the iterations of loop function? 
 ##### Why does max7219 doesn't show anything?
