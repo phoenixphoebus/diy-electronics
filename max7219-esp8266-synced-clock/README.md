@@ -1,5 +1,5 @@
 # max7219-esp8266-synced-clock
-The aim was to build a clock that syncs with internet for time. Here's a video of the clock in action:
+The aim was to build a clock that syncs with internet for time. Here's a video of the clock in action (CTRL+click (on Windows and Linux) or CMD+click (on MacOS) on image to open in a new window):<br>
 [![Youtube Video dpzCI1DDihA](https://img.youtube.com/vi/dpzCI1DDihA/0.jpg)](https://www.youtube.com/watch?v=dpzCI1DDihA)
 
 Extensions of this project are planned and would be to display conditional text based on time of day, location etc.
