@@ -46,6 +46,10 @@ Photos:
 
 I am trying to print this (https://www.thingiverse.com/thing:2885225) now and should have an update in two weeks. Yes, the library near my place is that busy. -_-
 
+Update: I got the print and here is how it looks:
+![IMG_2870.jpg](docs/images/IMG_2870.jpg)
+Lesson learnt: 3D printing from a public library takes a long time and it'd easier to just use cheap plastic boxes from Dollarama (Canadian dollar store)
+
 ## FAQ
 ##### Who not use NTP_Client - https://github.com/arduino-libraries/NTPClient and use time.h instead?
 The advantages of using time.h are:
